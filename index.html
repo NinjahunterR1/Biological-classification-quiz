@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEET Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Instructions -->
+    <div id="instructions">
+        <p>Instructions:</p>
+        <ul>
+            <li>Total Questions: 20</li>
+<li>Total Marks: 80</li>
+            <li>+4 points for each correct answer</li>
+            <li>-1 point for each incorrect answer</li>
+            <li>Time Limit: 20 minutes</li>
+        </ul>
+    </div>
+
+    <!-- Timer -->
+    <div id="timerContainer">
+        <button id="startTimerButton">Start Timer</button>
+        <button id="stopTimerButton" disabled>Stop Timer</button>
+        <div id="timerDisplay">20:00</div>
+    </div>
+
+    <!-- Quiz Form -->
+    <form id="quizForm">
+        <h1>Biological Classification Quiz</h1>
+
+        <!-- Questions will be inserted here by JavaScript -->
+        <div id="questionsContainer"></div>
+
+        <button id="submitBtn" type="submit">Submit Quiz</button>
+    </form>
+
+    <!-- Result Display -->
+    <div id="resultScreen" class="hidden">
+        <!-- Result will be inserted here by JavaScript -->
+    </div>
+
+    <!-- JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>

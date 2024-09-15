@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Light cyan background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#instructions {
+    background: #b2dfdb; /* Light teal */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#instructions ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#timerContainer {
+    background: #00796b; /* Dark teal */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#timerDisplay {
+    font-size: 2em;
+    text-align: center;
+}
+
+#quizForm {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: 2px solid #00796b; /* Dark teal */
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f1f8e9; /* Light green */
+}
+
+legend {
+    font-weight: bold;
+    color: #00796b; /* Dark teal */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.incorrect {
+    color: red;
+    font-weight: bold;
+}
+
+#resultScreen {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background-color: #00796b; /* Dark teal */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #b2dfdb; /* Light teal */
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: #004d40; /* Darker teal */
+}
+
+#scoreContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#score {
+    font-size: 4em; /* Increased size for visibility */
+    font-weight: bold; /* Make the score bold */
+    border-radius: 50%; /* Circular shape */
+    background: #f0f0f0; /* Background color */
+    width: 120px; /* Width of the circle */
+    height: 120px; /* Height of the circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000; /* Text color */
+}
